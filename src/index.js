@@ -25,3 +25,18 @@ btns.forEach(function (btn) {
     }
   });
 });
+
+window.addEventListener(
+  "keydown",
+  function(event){
+    if(event.key === "+") {
+      btns[2].click();
+    }
+    if(event.key === "-") {
+      btns[0].click();
+    }
+    if(event.key === "r") {
+      btns[1].click();
+    }
+  }
+);
