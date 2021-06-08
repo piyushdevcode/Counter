@@ -4,30 +4,31 @@ body,
   font-family: Montserrat;
   margin: 0;
   padding: 0;
+  font-size: 0.75rem;
   box-sizing: border-box;
 }
 
 .container {
-  padding: 15px;
+  padding: 1em 2em 1em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  border-radius: 25px 25px;
+  border-radius: 25px;
   box-shadow: -2px 1px 13px 1px #00000026;
 }
 .container h2 {
-  margin:.5em;
-  font-size: 2em;
-  margin-bottom:1em;
+  margin: .1em;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 .counter {
-  font-size:4.5em;
-  display: inline-block;
+  margin: 0.25em;
+  font-size:4.5rem;
+  display: block;
 }
 .btn-container {
-  margin-top: 2em;
   display: flex;
   align-content: space-between;
 }
@@ -36,7 +37,7 @@ button {
   font-size: 1.125rem;
   padding: 0.27em 0.57em;
   border: none;
-  margin: 0px 0.446em;
+  margin: 0px 0.456em;
   background-color: white;
   box-shadow: inset -1px 1px 4px 1px #84777938;
 }
